@@ -1,8 +1,6 @@
-# 🛠️ Em construção
-
 ## 📦 Projeto Web Services com Spring Boot e JPA / Hibernate
 
-Estou desenvolvendo este projeto de estudo do curso de Java, do professor **Dr. Nélio Alves**. O objetivo é aprender os fundamentos do desenvolvimento de aplicações web com Java usando o ecossistema **Spring Boot**, **JPA** e **Hibernate**.
+Projeto de estudo do curso de Java, do professor **Nélio Alves**, com o objetivo de aprender os fundamentos do desenvolvimento de aplicações web com Java usando **Spring Boot** e usdo do **JPA** e **Hibernate** para persistência de dados.
 
 ---
 
@@ -14,7 +12,6 @@ Estou desenvolvendo este projeto de estudo do curso de Java, do professor **Dr. 
 - Configurar e utilizar banco de dados **H2** para testes
 - Realizar operações **CRUD** (Create, Retrieve, Update, Delete)
 - Tratar exceções de forma adequada
-- Realizar o **deploy** opcional no **Heroku** com **PostgreSQL**
 
 ---
 
@@ -24,7 +21,20 @@ Estou desenvolvendo este projeto de estudo do curso de Java, do professor **Dr. 
 - Spring Boot
 - Spring Data JPA
 - H2 Database (teste)
-- PostgreSQL (produção)
 - Maven
-- Heroku (deploy)
 - Postman (testes de API)
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+O projeto segue a arquitetura **MVC** dividida nas seguintes camadas:
+
+- **Model (Entidades)**: `User`, `Order`, `Product`, `Category`, `OrderItem`, `Payment`
+- **Repository**: Interfaces que estendem `JpaRepository`
+- **Service**: Lógica de negócio e regras de exceção
+- **Resource (Controller)**: Endpoints da API REST
+
+---
+
+Com este projeto pude praticar a criação de API REST com Spring Boot, que até então eu só havia estudado a teoria. 🎯
