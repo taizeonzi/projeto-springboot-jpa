@@ -1,4 +1,4 @@
-## 📦 Projeto Web Services com Spring Boot e JPA / Hibernate
+# 📦 Projeto Web Services com Spring Boot e JPA / Hibernate
 
 Projeto de estudo do curso de Java, do professor **Nélio Alves**, com o objetivo de aprender os fundamentos do desenvolvimento de aplicações web com Java usando **Spring Boot** e usdo do **JPA** e **Hibernate** para persistência de dados.
 
@@ -29,7 +29,6 @@ Projeto de estudo do curso de Java, do professor **Nélio Alves**, com o objetiv
 ## 🗂️ Estrutura do Projeto
 
 O projeto segue a arquitetura **MVC** dividida nas seguintes camadas:
-
 - **Model (Entidades)**: `User`, `Order`, `Product`, `Category`, `OrderItem`, `Payment`
 - **Repository**: Interfaces que estendem `JpaRepository`
 - **Service**: Lógica de negócio e regras de exceção
@@ -38,3 +37,4 @@ O projeto segue a arquitetura **MVC** dividida nas seguintes camadas:
 ---
 
 Com este projeto pude praticar a criação de API REST com Spring Boot, que até então eu só havia estudado a teoria. 🎯
+
